@@ -7,9 +7,9 @@
 [![License](https://img.shields.io/github/license/ex1234/github-automation)](https://github.com/ex1234/github-automation/blob/main/LICENSE)
 <!-- BADGES:END -->
 
-РќР°Р±РѕСЂ СѓС‚РёР»РёС‚ РґР»СЏ Windows/WSL: РµР¶РµРґРЅРµРІРЅС‹Р№ В«РїСѓР»СЊСЃВ»-РєРѕРјРјРёС‚, С€Р°Р±Р»РѕРЅС‹ CI Рё РјРµР»РєР°СЏ Р°РІС‚РѕРјР°С‚РёРєР°.
+Tooling for Windows/WSL: daily "pulse" commit and basic CI templates.
 
 ## Quickstart
-```powershell
-.\pulse.ps1   # heartbeat-РєРѕРјРјРёС‚
-```
+`powershell
+.\pulse.ps1
+`
