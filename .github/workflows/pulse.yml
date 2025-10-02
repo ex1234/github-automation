@@ -1,7 +1,7 @@
 ﻿name: Daily pulse
 on:
   schedule:
-    - cron: "0 12 * * *"   # 12:00 UTC ~= 14:00 Europe/Ljubljana (сейчас)
+    - cron: "0 12 * * *"   # 12:00 UTC ~= 14:00 Europe/Ljubljana
   workflow_dispatch:
 permissions:
   contents: write
@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: { persist-credentials: true }
-      - name: Touch .pulse
+      - name: Commit pulse
         run: |
           date +"%Y-%m-%d %H:%M:%S" >> .pulse
           git config user.name "${{ github.actor }}"
