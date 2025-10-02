@@ -1,2 +1,8 @@
 ﻿# github-automation
-Windows/WSL automation scripts (daily pulse, tasks, CI).
+
+РќР°Р±РѕСЂ СѓС‚РёР»РёС‚ РґР»СЏ Windows/WSL: РµР¶РµРґРЅРµРІРЅС‹Р№ В«РїСѓР»СЊСЃВ»-РєРѕРјРјРёС‚, С€Р°Р±Р»РѕРЅС‹ CI Рё РјРµР»РєР°СЏ Р°РІС‚РѕРјР°С‚РёРєР°.
+
+## Quickstart
+`powershell
+.\pulse.ps1      # heartbeat-РєРѕРјРјРёС‚
+`
